@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { margin:0; padding:0; background:#f9f9f9;}
+
+.wrap h2 {font:normal 44px Arial, Helvetica, sans-serif; color:#232323;}
+
+ p { font:normal 13px/18px Arial, Helvetica, sans-serif; color:#343434; margin:0; padding:0; text-align:center;}
+
+.wrap { margin:0 auto; padding:0; max-width:980px;}
+
+#header-sec { margin:0 0 25px; padding:0;}
+
+.logo { margin:0; padding:20px 0 0;}
+
+.text-box { margin:10px 0 0; padding:0;}
+.image-box img { margin:0; padding:3px; border:1px solid #CCC;}
+.image-col { margin-bottom:15px; text-align:center;}
+
+.pagination-holder { margin:0 auto; width:250px;}
+.pagination li a { font:normal 13px Arial, Helvetica, sans-serif;}
+.search-box { border:1px solid #CCC; padding:4px; font:normal 12px Arial, Helvetica, sans-serif; color:#333; width:96%;}
+.select-box { border:1px solid #CCC; padding:4px; font:normal 12px Arial, Helvetica, sans-serif; color:#333; width:96%;}
+.search-sub-button { padding:5px 10px; background:#f2f2f2; font:normal 14px Arial, Helvetica, sans-serif; color:#000; border:1px solid #CCC;
+border-radius:12px; width:56%;}
+
+.select-box optgroup { font-size:14px; font-weight:bold;}
+
+.productbox{
+	border: 1px dashed #CCCCCC;
+    margin: 0 10px 20px;
+    min-height: 404px;
+    padding: 10px;
+    width: 30%;
+    }
+
+
+
+
