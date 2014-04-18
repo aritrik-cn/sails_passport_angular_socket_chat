@@ -1,21 +1,33 @@
 {
-    "name": "chatapp",
+    "name": "Sails Chat",
     "private": true,
-    "version": "0.0.0",
-    "description": "a Sails application",
+    "version": "0.0.1",
+    "description": "a Sails js chat application using passport Authentication",
     "dependencies": {
         "sails": "0.9.16",
         "grunt": "0.4.1",
         "sails-disk": "~0.9.0",
         "ejs": "0.8.4",
-        "optimist": "0.3.4"
+        "optimist": "0.3.4",
+        "passport": "0.2.0",
+        "passport-local": "1.0.0",
+        "passport-github": "0.1.5",
+        "passport-facebook": "1.0.3",
+        "passport-google-oauth": "0.1.5",
     },
     "scripts": {
         "start": "node app.js",
         "debug": "node debug app.js"
     },
     "main": "app.js",
-    "repository": "",
-    "author": "",
-    "license": ""
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aritrik-cn/sails_passport_angular_socket_chat.git"
+    },
+    "author": "Aritrik das",
+    "license": "",
+    "bugs": {
+        "url": "https://github.com/aritrik-cn/sails_passport_angular_socket_chat/issues"
+    },
+    "homepage": "https://github.com/aritrik-cn/sails_passport_angular_socket_chat"
 }
